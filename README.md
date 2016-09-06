@@ -14,7 +14,7 @@ All datas returned are in JSON format
 
 Routes : 
 
-    GET /user/{id}  :
+ 1.   GET /user/{id}  :
 
  Response Format example : 
   {
@@ -29,7 +29,7 @@ Routes :
  
  Return all users
 
--     POST /users :
+2.     POST /users :
 
 Add a new user
 
