@@ -14,7 +14,7 @@ All datas returned are in JSON format
 
 Routes : 
 
- -      GET /user/{id} : 
+ -      GET /user/{id}  :
 
  Response Format example : 
   {
@@ -25,7 +25,7 @@ Routes :
          "role": "normal"
   }
  
--      GET /users : 
+-      GET /users  :
  
  Return all users
 
