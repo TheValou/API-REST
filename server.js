@@ -227,7 +227,5 @@ app.use(myParser.json({extended : true}))
 		res.status(200).end(JSON.stringify(global.row));
 
 	})
-//OK
-
 
 app.listen(8081); 
