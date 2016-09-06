@@ -29,7 +29,7 @@ Routes :
  
  Return all users
 
--     POST /users
+-     POST /users :
 
 Add a new user
 
