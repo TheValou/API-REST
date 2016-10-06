@@ -13,15 +13,15 @@ Toutes les données retournées sont au format JSON
 
 Routes:
 
-GET / user / {id}:
+- GET / user / {id}:
 
 Format de réponse: { "id": 1, "nom": "Blu", "firstname": "John", "email": "john.blu@mail.com", "rôle": "normal"}
 
-GET / utilisateurs:
+- GET / utilisateurs:
 
 Retourne tous les utilisateurs
 
-POST / utilisateurs:
+- POST / utilisateurs:
 
 Ajouter un nouvel utilisateur
 
@@ -29,7 +29,7 @@ Exemple de données envoyées:
 
 { "Nom": "Cash", "firstname": "Johnny", "email": "johnny.cash@etna-alternance.net", "password": "sécuriser", "rôle": "normal"}
 
-PUT / user / {id}:
+- PUT / user / {id}:
 Modifier un utilisateur
 
 Exemple de données envoyées:
@@ -38,7 +38,7 @@ Exemple de données envoyées:
 "Nom": "Cash"
 }
 
-DELETE / user / {id}:
+- DELETE / user / {id}:
 Supprimer un utilisateur
 
 
