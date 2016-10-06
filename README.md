@@ -14,7 +14,7 @@ All datas returned are in JSON format
 
 Routes : 
 
-1.   GET /user/{id}  :
+- GET /user/{id}  :
 
  Response Format example : 
   {
@@ -25,11 +25,11 @@ Routes :
          "role": "normal"
   }		
   
-2.    GET /users  :
+-    GET /users  :
  
  Return all users
 
-3.    POST /users :
+-    POST /users :
 
 Add a new user
 
@@ -43,7 +43,7 @@ Sended datas example :
         "role": "normal"
   }
 
-4.    PUT /user/{id} :
+-    PUT /user/{id} :
 
 Alter an user
 
@@ -53,6 +53,6 @@ Sended datas example :
           "lastname": "Cash"
    }
       
-5.   DELETE /user/{id}  :
+-  DELETE /user/{id}  :
 
 Delete a user
