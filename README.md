@@ -39,6 +39,7 @@ Exemple de données envoyées:
 }
 
 - DELETE / user / {id}:
+
 Supprimer un utilisateur
 
 
