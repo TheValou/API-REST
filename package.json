@@ -9,7 +9,7 @@
     "passport": "~0.3.2",
     "passport-http": "~0.3.0",
     "querystring": "^0.2.0",
-    "sequelize": "^3.24.3"
+    "sequelize": "^6.3.5"
   },
   "author": "Valentin W",
   "description": "Rest-Full API"
